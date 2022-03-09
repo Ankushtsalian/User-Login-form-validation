@@ -8,12 +8,13 @@ export default function FormSignup({ submitForm }) {
     submitForm
   );
   const { username, email, password1, password2 } = values;
-  // console.log(username, email, password1, password2);
+ 
 
   return (
     <div className="form-content-right">
       <form className="form" onSubmit={handleSubmit} noValidate>
-        <h1>Get fill info below</h1>
+        <h1>  Get started with us today! Create your account by filling out the
+          information below.</h1>
 
         <Input
           id=" text"
